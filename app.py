@@ -4,7 +4,7 @@ import os
 import time, json
 import paho.mqtt.publish as publish
 from envirophat import light, motion, weather, leds
-mqtt_broker = "10.0.3.10"
+mqtt_broker = "10.0.3.11"
 
 try:
     while True:
